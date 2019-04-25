@@ -25,7 +25,7 @@
   "background": {
     "scripts": ["js/background.js", "js/loadscript.js"]
   },
-  "content_security_policy": "object-src 'self'",
+  "content_security_policy": "default-src 'self'",
   "content_scripts" : [
     {
       "all_frames": true,
